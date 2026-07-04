@@ -1,25 +1,30 @@
-# ISRO Placement Management Portal
+# Placify — ISRO Placement Management Portal
 
-A secure, multi-user web portal built during a Software Engineering internship at ISRO 
-(Indian Space Research Organisation), designed to manage the placement process for 
-Admin, Student, and Company users.
+🔗 **Live Demo:** https://placifyre.onrender.com
+
+A secure, multi-user placement management platform built during a Software Engineering 
+internship at ISRO (Indian Space Research Organisation). Placify simplifies the campus 
+placement process for Students, Admins, and Companies through role-based dashboards, 
+smart eligibility checking, and secure authentication.
 
 ## Overview
-This portal supports three distinct user roles with role-based access control, allowing 
-each type of user to view and act only on data relevant to their responsibilities. It 
-includes secure authentication, resume-based job matching, and real-time dashboards for 
-tracking placement activity.
+Placify bridges the gap between student potential and industry opportunities — offering 
+real-time eligibility checks, application tracking, and placement analytics through a 
+clean, role-specific interface for three types of users.
 
 ## Features
-- **Role-Based Access Control (RBAC)** — separate permissions and views for Admin, 
-  Student, and Company accounts
-- **OTP-based Multi-Factor Authentication** — email verification via SMTP for 
-  stronger login security
-- **Resume-Matching Engine** — parses resume data and applies skill-matching logic 
-  (TF-IDF based) to recommend suitable job roles to students
-- **Interactive Dashboards** — real-time visibility into student profiles, 
-  applications, and placement status for Admin and Company users
-- **Secure Session Handling** — password hashing and protected session management
+- **Role-Based Access Control (RBAC)** — separate permissions and dashboards for 
+  Admin, Student, and Company accounts
+- **Multi-Factor Authentication (MFA)** — OTP-based email verification via SMTP for 
+  secure login
+- **Smart Eligibility Checking** — matches students to opportunities based on CGPA, 
+  skills, and certifications
+- **Resume-Matching Engine** — TF-IDF based skill-matching logic to recommend 
+  suitable job roles
+- **Application Tracking** — students apply and track status; admins manage 
+  shortlisting and company drives
+- **Analytics Dashboards** — real-time placement statistics and insights for 
+  students and admins
 
 ## Tech Stack
 - **Backend:** Python, Flask
@@ -31,9 +36,9 @@ tracking placement activity.
 
 ## My Role
 Contributed to the design and development of the authentication system, dashboard 
-views, and resume-matching module as part of a Software Engineering internship, 
-under mentor guidance, from Feb 2025 to Jul 2025.
+views, and resume-matching module as part of a Software Engineering internship at 
+ISRO, under mentor guidance, from Feb 2025 to Jul 2025.
 
 ## Note
-This project was built as part of an academic internship at ISRO and reflects 
-project-training work rather than an official ISRO production system.
+This project was built as part of an academic internship/project-training program 
+at ISRO and reflects that context rather than an official ISRO production system.
